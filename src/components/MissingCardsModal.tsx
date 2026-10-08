@@ -37,7 +37,7 @@ export const MissingCardsModal: React.FC<MissingCardsModalProps> = ({
       missingCards
         .map(
           (c) =>
-            `#${c.number} - ${c.name} (${c.positionOrTeam || c.section} - Pág. ${c.page})`
+            `#${c.number} - ${c.name} [Encabezado: ${c.section}] (${c.positionOrTeam ? c.positionOrTeam + ' - ' : ''}Pág. ${c.page})`
         )
         .join('\n');
 
@@ -76,7 +76,7 @@ export const MissingCardsModal: React.FC<MissingCardsModalProps> = ({
               type="text"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Buscar en faltas..."
+              placeholder="Buscar en faltas (jugador, equipo, encabezado...)"
               className="w-full bg-slate-900 border border-slate-700 rounded-lg pl-9 pr-4 py-1.5 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-amber-400"
             />
           </div>
@@ -119,22 +119,27 @@ export const MissingCardsModal: React.FC<MissingCardsModalProps> = ({
                   className="bg-slate-800/90 border border-slate-700/80 rounded-lg p-2.5 flex items-center justify-between gap-2 hover:border-amber-400/50 transition group"
                 >
                   <div className="flex items-center gap-2.5 min-w-0">
-                    <span className="bg-amber-400/10 text-amber-400 font-mono font-bold text-xs px-2 py-1 rounded border border-amber-400/30 shrink-0">
+                    <span className="bg-amber-400/10 text-amber-400 font-mono font-bold text-xs px-2.5 py-1 rounded border border-amber-400/30 shrink-0">
                       #{card.number}
                     </span>
                     <div className="min-w-0">
-                      <p className="text-xs font-semibold text-white truncate group-hover:text-amber-300 transition">
-                        {card.name}
-                      </p>
-                      <p className="text-[10px] text-slate-400 truncate">
-                        {card.positionOrTeam || card.section} • Pág. {card.page}
+                      <div className="flex items-center gap-1.5 flex-wrap">
+                        <p className="text-xs font-bold text-white group-hover:text-amber-300 transition">
+                          {card.name}
+                        </p>
+                        <span className="bg-sky-950 text-sky-300 border border-sky-800/60 text-[9px] font-semibold px-1.5 py-0.5 rounded tracking-wide uppercase">
+                          {card.section}
+                        </span>
+                      </div>
+                      <p className="text-[10px] text-slate-400 mt-0.5">
+                        {card.positionOrTeam ? `${card.positionOrTeam} • ` : ''}Pág. {card.page}
                       </p>
                     </div>
                   </div>
 
                   <button
                     onClick={() => onToggle(card.id)}
-                    className="bg-emerald-600 hover:bg-emerald-500 text-white text-[10px] font-bold px-2 py-1 rounded shrink-0 transition shadow"
+                    className="bg-emerald-600 hover:bg-emerald-500 text-white text-[10px] font-bold px-2.5 py-1 rounded shrink-0 transition shadow"
                     title="Marcar como conseguido"
                   >
                     Marcar
