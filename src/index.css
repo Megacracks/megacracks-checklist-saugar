@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @media print {
+    @page {
+      size: A4 portrait;
+      margin: 4mm;
+    }
+    body {
+      background-color: white !important;
+      color: black !important;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .pdf-page {
+      page-break-after: always;
+      break-after: page;
+      box-shadow: none !important;
+      border: 1px solid #163a5f !important;
+      margin-bottom: 0 !important;
+      max-width: 100% !important;
+    }
+  }
+}

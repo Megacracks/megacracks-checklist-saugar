@@ -1,0 +1,8 @@
+{
+  "name": "Checklist Panini Megacracks 26-27",
+  "description": "Checklist interactiva oficial e idéntica al PDF de Megacracks 25 Aniversario LaLiga EA Sports con opción de marcar cromos y seguimiento de colección.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
