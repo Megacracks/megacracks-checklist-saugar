@@ -2,26 +2,6 @@ import { CardItem } from '../types';
 
 export const page4Cards: CardItem[] = [
   // --- COLUMN 1 ---
-  // ZONA VIP POWER
-  { id: '388P', number: '388P', name: 'Antony', positionOrTeam: 'Betis', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '389P', number: '389P', name: 'Borja Iglesias', positionOrTeam: 'Celta', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '390P', number: '390P', name: 'Carlos Soler', positionOrTeam: 'Real Sociedad', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '391P', number: '391P', name: 'Cubarsí', positionOrTeam: 'Barcelona', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '392P', number: '392P', name: 'De Frutos', positionOrTeam: 'Rayo Vallecano', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '393P', number: '393P', name: 'Eric García', positionOrTeam: 'Barcelona', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '394P', number: '394P', name: 'Gavi', positionOrTeam: 'Barcelona', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '395P', number: '395P', name: 'Guedes', positionOrTeam: 'Real Sociedad', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '396P', number: '396P', name: 'Güler', positionOrTeam: 'Real Madrid', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '397P', number: '397P', name: 'Hancko', positionOrTeam: 'Atlético', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '398P', number: '398P', name: 'Jauregizar', positionOrTeam: 'Athletic', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '399P', number: '399P', name: 'Joan García', positionOrTeam: 'Barcelona', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '400P', number: '400P', name: 'Koke', positionOrTeam: 'Atlético', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '401P', number: '401P', name: 'Marcos Llorente', positionOrTeam: 'Atlético', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '402P', number: '402P', name: 'Mikautadze', positionOrTeam: 'Villarreal', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '403P', number: '403P', name: 'Oblak', positionOrTeam: 'Atlético', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '404P', number: '404P', name: 'Pubill', positionOrTeam: 'Atlético', page: 4, column: 1, section: 'ZONA VIP POWER' },
-  { id: '405P', number: '405P', name: 'Tchouaméni', positionOrTeam: 'Real Madrid', page: 4, column: 1, section: 'ZONA VIP POWER' },
-
   // MASTER ROOKIE
   { id: '406', number: '406', name: 'Abdelkarim', positionOrTeam: 'Barcelona', page: 4, column: 1, section: 'MASTER ROOKIE' },
   { id: '407', number: '407', name: 'Antañón', positionOrTeam: 'Celta', page: 4, column: 1, section: 'MASTER ROOKIE' },
