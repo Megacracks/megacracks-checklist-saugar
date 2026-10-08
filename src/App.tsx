@@ -13,7 +13,6 @@ import { PdfPage } from './components/PdfPage';
 import { SupabaseModal } from './components/SupabaseModal';
 import { UnmarkConfirmModal } from './components/UnmarkConfirmModal';
 import { ResetConfirmModal } from './components/ResetConfirmModal';
-import { MissingCardsModal } from './components/MissingCardsModal';
 import { Search, Trophy, CheckCircle, ChevronUp } from 'lucide-react';
 import { CardItem } from './types';
 
@@ -44,7 +43,6 @@ export default function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [isSupabaseModalOpen, setIsSupabaseModalOpen] = useState(false);
   const [isResetModalOpen, setIsResetModalOpen] = useState(false);
-  const [isMissingModalOpen, setIsMissingModalOpen] = useState(false);
 
   // Confirmation modal state for unchecking cards
   const [cardToUnmark, setCardToUnmark] = useState<CardItem | null>(null);
@@ -122,17 +120,6 @@ export default function App() {
         isSyncing={isSyncing}
         onOpenSupabaseModal={() => setIsSupabaseModalOpen(true)}
         onManualDownload={manualDownloadFromCloud}
-        onOpenMissingModal={() => setIsMissingModalOpen(true)}
-      />
-
-      {/* Missing Cards Modal */}
-      <MissingCardsModal
-        isOpen={isMissingModalOpen}
-        onClose={() => setIsMissingModalOpen(false)}
-        allCards={allCards}
-        checkedIds={checkedIds}
-        onToggle={handleCardToggle}
-        onSelectFilterMode={setFilterMode}
       />
 
       {/* Banner if Supabase is linked but table is missing */}

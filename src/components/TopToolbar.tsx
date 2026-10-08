@@ -34,7 +34,6 @@ interface TopToolbarProps {
   isSyncing: boolean;
   onOpenSupabaseModal: () => void;
   onManualDownload: () => Promise<boolean>;
-  onOpenMissingModal?: () => void;
 }
 
 export const TopToolbar: React.FC<TopToolbarProps> = ({
@@ -56,7 +55,6 @@ export const TopToolbar: React.FC<TopToolbarProps> = ({
   isSyncing,
   onOpenSupabaseModal,
   onManualDownload,
-  onOpenMissingModal,
 }) => {
   const [copiedMessage, setCopiedMessage] = useState(false);
   const [isReloading, setIsReloading] = useState(false);
@@ -392,10 +390,7 @@ export const TopToolbar: React.FC<TopToolbarProps> = ({
               Todos
             </button>
             <button
-              onClick={() => {
-                onSelectFilterMode('missing');
-                onOpenMissingModal?.();
-              }}
+              onClick={() => onSelectFilterMode('missing')}
               className={`flex items-center gap-1 px-2.5 py-1 rounded text-xs font-medium transition ${
                 filterMode === 'missing'
                   ? 'bg-rose-900/80 text-rose-200 font-bold'

@@ -2,7 +2,7 @@ import { CardItem } from '../types';
 
 export const page5Cards: CardItem[] = [
   // --- COLUMN 1 ---
-  // NUEVO FICHAJE (Part 1)
+  // NUEVO FICHAJE
   { id: '451', number: '451', name: 'Cucurella', positionOrTeam: 'Real Madrid', page: 5, column: 1, section: 'NUEVO FICHAJE' },
   { id: '452', number: '452', name: 'Amatucci', positionOrTeam: 'RC Deportivo', page: 5, column: 1, section: 'NUEVO FICHAJE' },
   { id: '453', number: '453', name: 'Sato', positionOrTeam: 'Valencia CF', page: 5, column: 1, section: 'NUEVO FICHAJE' },
@@ -10,7 +10,7 @@ export const page5Cards: CardItem[] = [
   { id: '455', number: '455', name: 'Fran García', positionOrTeam: 'Real Betis', page: 5, column: 1, section: 'NUEVO FICHAJE' },
   { id: '456', number: '456', name: 'Mikel Rodríguez', positionOrTeam: 'D. Alavés', page: 5, column: 1, section: 'NUEVO FICHAJE' },
   { id: '457', number: '457', name: 'Sazonov', positionOrTeam: 'Getafe FC', page: 5, column: 1, section: 'NUEVO FICHAJE' },
-  { id: '458', number: '458', name: 'Juan Cruz', positionOrTeam: 'Málaga FC', page: 5, column: 1, section: 'NUEVO FICHAJE' },
+  { id: '458', number: '458', name: 'Juan Cruz', positionOrTeam: 'Málaga CF', page: 5, column: 1, section: 'NUEVO FICHAJE' },
   { id: '459', number: '459', name: 'Grimaldo', positionOrTeam: 'Atlético de Madrid', page: 5, column: 1, section: 'NUEVO FICHAJE' },
   { id: '460', number: '460', name: 'Canales', positionOrTeam: 'R. Racing Club', page: 5, column: 1, section: 'NUEVO FICHAJE' },
   { id: '461', number: '461', name: 'Guridi', positionOrTeam: 'Sevilla FC', page: 5, column: 1, section: 'NUEVO FICHAJE' },
@@ -18,7 +18,7 @@ export const page5Cards: CardItem[] = [
   { id: '463', number: '463', name: 'Gijselhart', positionOrTeam: 'RC Deportivo', page: 5, column: 1, section: 'NUEVO FICHAJE' },
 
   // --- COLUMN 2 ---
-  // NUEVO FICHAJE (Part 2)
+  // NUEVO FICHAJE
   { id: '464', number: '464', name: 'Konaté', positionOrTeam: 'Real Madrid', page: 5, column: 2, section: 'NUEVO FICHAJE' },
   { id: '465', number: '465', name: 'Fer Niño', positionOrTeam: 'Elche CF', page: 5, column: 2, section: 'NUEVO FICHAJE' },
   { id: '466', number: '466', name: 'Carlos Romero', positionOrTeam: 'Villarreal CF', page: 5, column: 2, section: 'NUEVO FICHAJE' },
@@ -34,7 +34,7 @@ export const page5Cards: CardItem[] = [
   { id: '476', number: '476', name: 'Drkusic', positionOrTeam: 'RCD Espanyol', page: 5, column: 2, section: 'NUEVO FICHAJE' },
 
   // --- COLUMN 3 ---
-  // NUEVO FICHAJE (Part 3)
+  // NUEVO FICHAJE
   { id: '477', number: '477', name: 'Julio Díaz', positionOrTeam: 'Sevilla FC', page: 5, column: 3, section: 'NUEVO FICHAJE' },
   { id: '478', number: '478', name: 'Diomande', positionOrTeam: 'Real Madrid', page: 5, column: 3, section: 'NUEVO FICHAJE' },
   { id: '479', number: '479', name: 'Francho', positionOrTeam: 'Getafe FC', page: 5, column: 3, section: 'NUEVO FICHAJE' },

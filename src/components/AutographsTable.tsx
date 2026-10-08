@@ -100,11 +100,6 @@ export const AutographsTable: React.FC<AutographsTableProps> = ({
 
   return (
     <div className="border border-[#163a5f] rounded-t overflow-hidden shadow-sm bg-white mb-2">
-      {/* Header */}
-      <div className="bg-[#0b2742] text-white text-center py-1 sm:py-1.5 px-2 font-black font-['Barlow_Condensed'] text-xs sm:text-sm tracking-wider uppercase border-b border-[#163a5f]">
-        LISTADO AUTÓGRAFOS MEGACRACKS 26-27
-      </div>
-
       <table className="w-full border-collapse">
         {renderTier(tier200, '200', 'autógrafos', '200')}
         {renderTier(tier100, '100', 'autógrafos', '100')}

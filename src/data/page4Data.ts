@@ -2,6 +2,46 @@ import { CardItem } from '../types';
 
 export const page4Cards: CardItem[] = [
   // --- COLUMN 1 ---
+  // ZONA VIP
+  { id: '388', number: '388', name: 'Antony', positionOrTeam: 'Betis', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '389', number: '389', name: 'Borja Iglesias', positionOrTeam: 'Celta', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '390', number: '390', name: 'Carlos Soler', positionOrTeam: 'Real Sociedad', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '391', number: '391', name: 'Cubarsí', positionOrTeam: 'Barcelona', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '392', number: '392', name: 'De Frutos', positionOrTeam: 'Rayo Vallecano', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '393', number: '393', name: 'Eric García', positionOrTeam: 'Barcelona', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '394', number: '394', name: 'Gavi', positionOrTeam: 'Barcelona', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '395', number: '395', name: 'Guedes', positionOrTeam: 'Real Sociedad', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '396', number: '396', name: 'Güler', positionOrTeam: 'Real Madrid', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '397', number: '397', name: 'Hancko', positionOrTeam: 'Atlético', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '398', number: '398', name: 'Jauregizar', positionOrTeam: 'Athletic', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '399', number: '399', name: 'Joan García', positionOrTeam: 'Barcelona', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '400', number: '400', name: 'Koke', positionOrTeam: 'Atlético', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '401', number: '401', name: 'Marcos Llorente', positionOrTeam: 'Atlético', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '402', number: '402', name: 'Mikautadze', positionOrTeam: 'Villarreal', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '403', number: '403', name: 'Oblak', positionOrTeam: 'Atlético', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '404', number: '404', name: 'Pubill', positionOrTeam: 'Atlético', page: 4, column: 1, section: 'ZONA VIP' },
+  { id: '405', number: '405', name: 'Tchouaméni', positionOrTeam: 'Real Madrid', page: 4, column: 1, section: 'ZONA VIP' },
+
+  // ZONA VIP POWER
+  { id: '388P', number: '388P', name: 'Antony', positionOrTeam: 'Betis', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '389P', number: '389P', name: 'Borja Iglesias', positionOrTeam: 'Celta', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '390P', number: '390P', name: 'Carlos Soler', positionOrTeam: 'Real Sociedad', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '391P', number: '391P', name: 'Cubarsí', positionOrTeam: 'Barcelona', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '392P', number: '392P', name: 'De Frutos', positionOrTeam: 'Rayo Vallecano', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '393P', number: '393P', name: 'Eric García', positionOrTeam: 'Barcelona', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '394P', number: '394P', name: 'Gavi', positionOrTeam: 'Barcelona', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '395P', number: '395P', name: 'Guedes', positionOrTeam: 'Real Sociedad', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '396P', number: '396P', name: 'Güler', positionOrTeam: 'Real Madrid', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '397P', number: '397P', name: 'Hancko', positionOrTeam: 'Atlético', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '398P', number: '398P', name: 'Jauregizar', positionOrTeam: 'Athletic', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '399P', number: '399P', name: 'Joan García', positionOrTeam: 'Barcelona', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '400P', number: '400P', name: 'Koke', positionOrTeam: 'Atlético', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '401P', number: '401P', name: 'Marcos Llorente', positionOrTeam: 'Atlético', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '402P', number: '402P', name: 'Mikautadze', positionOrTeam: 'Villarreal', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '403P', number: '403P', name: 'Oblak', positionOrTeam: 'Atlético', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '404P', number: '404P', name: 'Pubill', positionOrTeam: 'Atlético', page: 4, column: 1, section: 'ZONA VIP POWER' },
+  { id: '405P', number: '405P', name: 'Tchouaméni', positionOrTeam: 'Real Madrid', page: 4, column: 1, section: 'ZONA VIP POWER' },
+
   // MASTER ROOKIE
   { id: '406', number: '406', name: 'Abdelkarim', positionOrTeam: 'Barcelona', page: 4, column: 1, section: 'MASTER ROOKIE' },
   { id: '407', number: '407', name: 'Antañón', positionOrTeam: 'Celta', page: 4, column: 1, section: 'MASTER ROOKIE' },
@@ -53,42 +93,4 @@ export const page4Cards: CardItem[] = [
   { id: '448', number: '448', name: 'Oyarzabal', positionOrTeam: 'Real Sociedad', page: 4, column: 2, section: 'STARS ON 25' },
   { id: '449', number: '449', name: 'Lamine Yamal', positionOrTeam: 'Barcelona', page: 4, column: 2, section: 'STARS ON 25' },
   { id: '450', number: '450', name: 'Mbappé', positionOrTeam: 'Real Madrid', page: 4, column: 2, section: 'STARS ON 25' },
-
-  // JUST 25
-  { id: 'just25-cr7', number: '25u.', name: 'Cristiano Ronaldo', positionOrTeam: 'Real Madrid', page: 4, column: 2, section: 'JUST 25' },
-  { id: 'just25-messi', number: '25u.', name: 'Messi', positionOrTeam: 'Barcelona', page: 4, column: 2, section: 'JUST 25' },
-
-  // --- COLUMN 3 ---
-  // LISTADO AUTÓGRAFOS MEGACRACKS 26-27
-  // 200 autógrafos
-  { id: 'auto-sivera', number: '200', name: 'Antonio Sivera (D. Alavés)', positionOrTeam: '200', isAutograph: true, autographCount: 200, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 200' },
-  { id: 'auto-paredes', number: '200', name: 'Aitor Paredes (Athletic)', positionOrTeam: '200', isAutograph: true, autographCount: 200, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 200' },
-  { id: 'auto-pgarcia', number: '200', name: 'Pablo García (Betis)', positionOrTeam: '200', isAutograph: true, autographCount: 200, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 200' },
-  { id: 'auto-febas', number: '200', name: 'Aleix Febas (Celta)', positionOrTeam: '200', isAutograph: true, autographCount: 200, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 200' },
-  { id: 'auto-jguerra', number: '200', name: 'Javi Guerra (Valencia)', positionOrTeam: '200', isAutograph: true, autographCount: 200, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 200' },
-  { id: 'auto-roberto', number: '200', name: 'Roberto Fernández (Espanyol)', positionOrTeam: '200', isAutograph: true, autographCount: 200, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 200' },
-  { id: 'auto-soria', number: '200', name: 'David Soria (Getafe)', positionOrTeam: '200', isAutograph: true, autographCount: 200, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 200' },
-  { id: 'auto-salas', number: '200', name: 'Kike Salas (Sevilla)', positionOrTeam: '200', isAutograph: true, autographCount: 200, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 200' },
-
-  // 100 autógrafos
-  { id: 'auto-soler', number: '100', name: 'Carlos Soler (Real Sociedad)', positionOrTeam: '100', isAutograph: true, autographCount: 100, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 100' },
-  { id: 'auto-batalla', number: '100', name: 'Augusto Batalla (Rayo Vallecano)', positionOrTeam: '100', isAutograph: true, autographCount: 100, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 100' },
-  { id: 'auto-buchanan', number: '100', name: 'Tajon Buchanan (Villarreal)', positionOrTeam: '100', isAutograph: true, autographCount: 100, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 100' },
-  { id: 'auto-pubill', number: '100', name: 'Marc Pubill (Atlético de Madrid)', positionOrTeam: '100', isAutograph: true, autographCount: 100, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 100' },
-  { id: 'auto-ugomez', number: '100', name: 'Unai Gómez (Athletic)', positionOrTeam: '100', isAutograph: true, autographCount: 100, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 100' },
-  { id: 'auto-blanco', number: '100', name: 'Antonio Blanco (Alavés)', positionOrTeam: '100', isAutograph: true, autographCount: 100, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 100' },
-
-  // 50 autógrafos
-  { id: 'auto-simeone', number: '50', name: 'Giuliano Simeone (Atlético de Madrid)', positionOrTeam: '50', isAutograph: true, autographCount: 50, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 50' },
-  { id: 'auto-iwilliams', number: '50', name: 'Iñaki Williams (Athletic)', positionOrTeam: '50', isAutograph: true, autographCount: 50, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 50' },
-  { id: 'auto-vmunoz', number: '50', name: 'Víctor Muñoz (Osasuna)', positionOrTeam: '50', isAutograph: true, autographCount: 50, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 50' },
-  { id: 'auto-gmartin', number: '50', name: 'Gerard Martín (Barcelona)', positionOrTeam: '50', isAutograph: true, autographCount: 50, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 50' },
-
-  // 50 dobles
-  { id: 'auto-pitarch-guler', number: '50', name: 'Thiago Pitarch / Arda Güler (Real Madrid)', positionOrTeam: '50', isAutograph: true, autographCount: 50, autographType: 'double', page: 4, column: 3, section: 'AUTÓGRAFOS 50 DOBLES' },
-  { id: 'auto-moleiro-moreno', number: '50', name: 'Alberto Moleiro / Gerard Moreno (Villarreal)', positionOrTeam: '50', isAutograph: true, autographCount: 50, autographType: 'double', page: 4, column: 3, section: 'AUTÓGRAFOS 50 DOBLES' },
-
-  // 5 autógrafos
-  { id: 'auto-pedri', number: '5', name: 'Pedri González (Barcelona)', positionOrTeam: '5', isAutograph: true, autographCount: 5, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 5' },
-  { id: 'auto-jalvarez', number: '5', name: 'Julián Alvarez (Atlético de Madrid)', positionOrTeam: '5', isAutograph: true, autographCount: 5, autographType: 'single', page: 4, column: 3, section: 'AUTÓGRAFOS 5' },
 ];

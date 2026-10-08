@@ -169,4 +169,11 @@ export const page2Cards: CardItem[] = [
   { id: '261', number: '261', name: 'Iker Muñoz', positionOrTeam: 'Medio', page: 2, column: 3, section: 'OSASUNA' },
   { id: '262', number: '262', name: 'Torró', positionOrTeam: 'Medio', page: 2, column: 3, section: 'OSASUNA' },
   { id: '263', number: '263', name: 'Moncayola', positionOrTeam: 'Medio', page: 2, column: 3, section: 'OSASUNA' },
+  { id: '264', number: '264', name: 'Moi Gómez', positionOrTeam: 'Medio', page: 2, column: 3, section: 'OSASUNA' },
+  { id: '265', number: '265', name: 'Rubén García', positionOrTeam: 'Medio', page: 2, column: 3, section: 'OSASUNA' },
+  { id: '266', number: '266', name: 'Aimar Oroz', positionOrTeam: 'Medio', page: 2, column: 3, section: 'OSASUNA' },
+  { id: '267', number: '267', name: 'Raúl Moro', positionOrTeam: 'Delantero', page: 2, column: 3, section: 'OSASUNA' },
+  { id: '268', number: '268', name: 'Kike Barja', positionOrTeam: 'Delantero', page: 2, column: 3, section: 'OSASUNA' },
+  { id: '269', number: '269', name: 'Raúl García', positionOrTeam: 'Delantero', page: 2, column: 3, section: 'OSASUNA' },
+  { id: '270', number: '270', name: 'Budimir', positionOrTeam: 'Delantero', page: 2, column: 3, section: 'OSASUNA' },
 ];
